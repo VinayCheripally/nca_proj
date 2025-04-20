@@ -87,7 +87,7 @@ data_parser = {
     'WTH': {'data': 'WTH.csv', 'T': 'WetBulbCelsius', 'M': [12, 12, 12], 'S': [1, 1, 1], 'MS': [12, 12, 1]},
     'ECL': {'data': 'ECL.csv', 'T': 'MT_320', 'M': [321, 321, 321], 'S': [1, 1, 1], 'MS': [321, 321, 1]},
     'Solar': {'data': 'solar_AL.csv', 'T': 'POWER_136', 'M': [137, 137, 137], 'S': [1, 1, 1], 'MS': [137, 137, 1]},
-    'MyData': {'data': 'train.csv', 'T': 'Value', 'M': [1,1,1], 'S': [1, 1, 1], 'MS': [1,1,1]},
+    'MyData': {'data': 'train.csv', 'T': 'Value', 'M': [4,4,4], 'S': [1, 1, 1], 'MS': [4,4,1]},
 }
 if args.data in data_parser.keys():
     data_info = data_parser[args.data]
